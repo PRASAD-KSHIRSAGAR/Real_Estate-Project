@@ -5,6 +5,7 @@ import Regiens from '../Subcomponents/Regiens';
 import OurSpecialties from '../Subcomponents/OurSpecialties';
 import Host from '../Subcomponents/Host';
 import About from '../Subcomponents/About';
+import Contact from '../Subcomponents/Contact';
 const Home = () => {
 
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <OurSpecialties/>
       <Host/>
       <About/>
+      <Contact/>
     </article>
   )
 }
